@@ -12,7 +12,7 @@ Foi decidido que a coordenadora será a aluna Sofia Santos e a secretária será
 
 **Responsabilidades**: No momento, como o tema ainda não foi devidamente aprofundado, todos os membros da equipe estarão responsáveis pela pesquisa e coleta de dados. E para o github deixamos a aluna Esther responsável pela criação e compartilhamento do repositório. 
 
---
+---
 
 # ATA 2
 Data: 09/06/2026      
@@ -42,7 +42,7 @@ https://br.pinterest.com/pin/833658581074805511/
 **Responsabilidades**: Mariella responsável pela criação do figma compartilhado.
 Ausentes: Esther Alves, Rebecca Alves e Isabelle Padilha.
 
---	
+---
 
 # ATA 3
 Data: 16/06/2026
@@ -72,7 +72,7 @@ https://st3.depositphotos.com/1006215/13631/v/450/depositphotos_136315864-stock-
 **Observação:** A logo será desenhada a mão.
 Foi decidido que o assunto a ser abordado será a escrita hieroglífica, anulando as ideias mencionadas na ata 2. Mantendo apenas a decisão da paleta de cores.
 
---
+---
 
 # ATA 4
 Assunto: Produção do  layout , do cabeçalho e rodapé do site.
@@ -84,7 +84,7 @@ Foi criado o layout do cabeçalho e rodapé.
 
 **Responsabilidades**: Para a próxima aula, cada membro do grupo terá que trazer o seu wireframe pronto no figma.
 
---
+---
 
 # ATA 5
 Assunto:  Wireframes e pesquisas.
