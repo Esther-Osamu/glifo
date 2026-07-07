@@ -94,4 +94,14 @@ Hoje foram finalizados os wireframes e iniciada as pesquisas.
 
 **Responsabilidades**: Trazer as pesquisas prontas para semana que vem.
 
+---
+# ATA 6
+Assunto: Começo do desenvolvimento do layout.
+Data: 07/07/2026
+
+Foi iniciado todo o desenvolvimento do layout das páginas do site.
+
+**Responsabilidades**: Trazer layouts prontos semana que vem.
+
+
  
