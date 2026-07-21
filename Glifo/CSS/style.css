@@ -1,0 +1,51 @@
+/* CSS GERAL */
+
+/* HEADER */
+
+header {
+    background-color: #934C1A;
+    text-align: center;
+}
+
+header img {
+    width: 50%;
+}
+
+header nav {
+    background-color: #F6E2BF;
+    text-align: center;
+}
+
+header nav a {
+    display: block;
+    padding: 2vw;
+}
+
+header nav a:hover {
+    border: 2px solid #934C1A;
+    border-radius: 21px;
+} 
+
+footer {
+    background-color: #934C1A;
+}
+
+footer p {
+    color: #F6E2BF;
+    font-size: 0.7rem;
+    padding: 2vw 4vw 2vw 4vw;
+}
+
+@media only screen and (min-width: 600px) {
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 1vw 3vw 1vw 3vw;
+      text-align: center;
+    }
+
+    footer p {
+        font-size: 1rem;
+        padding: 1vw 2vw 1vw 2vw;
+    }
+}
