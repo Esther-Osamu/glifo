@@ -14,6 +14,7 @@ header img {
 header nav {
     background-color: #F6E2BF;
     text-align: center;
+    color:black;
 }
 
 header nav a {
@@ -49,3 +50,33 @@ footer p {
         padding: 1vw 2vw 1vw 2vw;
     }
 }
+/* Saiba Mais */
+html{
+    background-color: #5B1F0F;
+    color: #C99565;
+    font-family: 'Almendra', sans-serif;
+    h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Abhaya Libre', sans-serif;
+    }
+}
+div.text h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin: 6vw 6vw 0vw 6vw;
+}
+div.text h2{
+    font-size: 1.5rem;
+    margin: 0vw 30vw 0vw 0vw;
+    text-align: right;
+}
+div.text p{
+    font-size: 1 rem;
+    margin: 4vw 6vw 0vw 6vw;
+    text-align: justify;
+}
+div.img{
+    max-width: 50%;
+    margin: 4vw 0vw 0vw 0vw;
+    justify-content: right;
+}
+
