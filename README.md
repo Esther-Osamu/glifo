@@ -102,6 +102,6 @@ Data: 07/07/2026
 Foi iniciado todo o desenvolvimento do layout das páginas do site.
 
 **Responsabilidades**: Trazer layouts prontos semana que vem.
-
+slsa
 
  
