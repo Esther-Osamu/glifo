@@ -3,7 +3,7 @@ html{
     background-color: #5B1F0F;
     color: #C99565;
     font-family: 'Almendra', sans-serif;
-    h1, h2, h3, h4, h5, h6, p {
+    h3, h4, h5, h6, p {
     font-family: 'Abhaya Libre', sans-serif;
     }
 }
@@ -59,46 +59,130 @@ footer p {
 }
 /* Saiba Mais */
 section.saibamais {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   gap: 40px;
-   max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 50px;
+    width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
 }
-div.text{
-    flex: 1;
+div.text {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    color: #F8E5C8;
 }
-div.text h1{
-    font-size: 3rem;
-    margin-bottom: 10px;
-    font-weight: bold;
-    line-height: 1.2;
+.text-header {
+    width: 100%;
+}
+
+div.text h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
     text-align: left;
+    width: 100%;
+    margin-bottom: 8px;
 }
-div.text h2{
-    font-size: 1.6rem;
-    margin-bottom: 25px;
+
+div.text h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
     text-align: right;
-    margin: 0 10vw 0 10vw ;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 10px;
 }
-div.text p{
-    font-size: 1rem;
+
+div.text p {
+    font-size: 1.8rem;
     line-height: 1.5;
-    max-width: 500px;
-    margin: 2rem;
-    text-align:center;
+    text-align: center;
+    max-width: 520px;
+    margin: 15px auto;
 }
-div.img{
+div.text a.btn-saibamais {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: transparent;
+    color: #F8E5C8;
+    border: 2px solid #C99565;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+div.text a.btn-saibamais:hover {
+    background-color: #C99565;
+    color: #3b190e;
+}
+div.img {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border: 1px solid #C99565;
     padding: 20px;
+    max-width: 460px;
+    width: 100%;
     box-sizing: border-box;
 }
+
+div.img img:first-of-type {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 12px;
+}
+
+div.img h3 {
+    font-size: 1.2rem;
+    color: #F8E5C8;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+div.img img:last-of-type {
+    width: 55%;
+    height: auto;
+    display: block;
+}
+section.conheca div.bege{
+    background-color: #c99565;
+    margin: 20px 0 10px 0;
+    height: 47px;
+}
+section.conheca div.hiero_img img {
+    width: 100%;
+    height: 80px; 
+    object-fit: cover; 
+    display: block;
+}
+section.conheca h2{
+    text-align: center;
+    font-size: 3rem;
+    color:#5B1F0F;
+    font-weight: 800;
+    background-color: #c99565;
+    padding: 20px 0 20px 0;
+}
+section.acompanhe img.esfinge {
+    width: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+
+
+
 
 
 
