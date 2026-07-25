@@ -144,7 +144,7 @@ div.img img:first-of-type {
 
 div.img h3 {
     font-size: 1.2rem;
-    color: #F8E5C8;
+    color: #c99565;
     text-align: center;
     font-weight: normal;
     margin-bottom: 8px;
@@ -179,10 +179,177 @@ section.acompanhe img.esfinge {
     object-fit: cover; 
     display: block;
 }
+section.conheca {
+  width: 100%;
+}
+section.conheca h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #5b1f0f;
+  font-weight: 800;
+  background-color: #c99565;
+  padding: 25px 10px;
+  margin: 0;
+}
+section.conheca div.hiero_img img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  display: block;
+}
+ul.cards-container {
+  list-style: none;
+  padding: 0 20px;
+  margin: 50px auto;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.card {
+  background-color: #f8e5c8; 
+  border-radius: 30px;       
+  padding: 40px 50px;         
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 40px;
 
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.card:hover {
+  background-color: #b58354; 
+  cursor: pointer;
+}
+.card.card-reverse {
+  direction: rtl;
+}
 
+.card.card-reverse .card-info {
+  direction: ltr;
+  text-align: center;
+}
+.card-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
+.profile-img {
+  width: 100%;
+  max-width: 380px; 
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  text-align: center;    
+  gap: 18px;
+  width: 100%;
+}
 
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
 
+.card-header h3 {
+  font-size: 2.6rem;    
+  color: #5b1f0f;       
+  margin: 0;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.hiero-icon {
+  height: 40px;         
+  width: auto;
+  object-fit: contain;
+}
+
+.card-info p {
+  font-size: 1.25rem;   
+  line-height: 1.6;
+  color: #5b1f0f;       
+  margin: 0;
+  font-family: Georgia, serif;
+}
+.github-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #5b1f0f;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.github-link img {
+  width: 32px;
+  height: 32px;
+}
+section.acompanhe {
+  position: relative;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.banner-overlay {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+section.acompanhe img.esfinge {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  filter: brightness(0.35);
+  display: block;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+  max-width: 750px;
+}
+
+.banner-content h2 {
+  color: #f1c59b;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  font-family: Georgia, serif;
+}
+
+.insta-main-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  color: #c99565;
+  font-size: 2.3rem;
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+
+.insta-main-link img {
+  width: 50px;
+  height: 50px;
+}
 
 
