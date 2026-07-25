@@ -2,10 +2,13 @@
 html{
     background-color: #5B1F0F;
     color: #C99565;
-    font-family: 'Almendra', sans-serif;
-    h3, h4, h5, h6, p {
+    body, p, span {
     font-family: 'Abhaya Libre', sans-serif;
-    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Almendra', sans-serif;
+}
 }
 /* HEADER */
 
@@ -158,6 +161,10 @@ div.img img:last-of-type {
 section.conheca div.bege{
     background-color: #c99565;
     margin: 20px 0 10px 0;
+}
+section.conheca div.bege{
+    background-color: #c99565;
+    margin: 20px 0 10px 0;
     height: 47px;
 }
 section.conheca div.hiero_img img {
@@ -264,7 +271,6 @@ ul.cards-container {
   font-size: 2.6rem;    
   color: #5b1f0f;       
   margin: 0;
-  font-family: Georgia, serif;
   font-weight: bold;
 }
 
@@ -279,7 +285,6 @@ ul.cards-container {
   line-height: 1.6;
   color: #5b1f0f;       
   margin: 0;
-  font-family: Georgia, serif;
 }
 .github-link {
   display: flex;
@@ -333,7 +338,6 @@ section.acompanhe img.esfinge {
   font-weight: normal;
   margin-bottom: 20px;
   line-height: 1.4;
-  font-family: Georgia, serif;
 }
 
 .insta-main-link {
@@ -344,7 +348,6 @@ section.acompanhe img.esfinge {
   color: #c99565;
   font-size: 2.3rem;
   font-weight: bold;
-  font-family: Georgia, serif;
 }
 
 .insta-main-link img {
