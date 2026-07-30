@@ -54,6 +54,9 @@ section.livros {
     max-width: 250px;
     position: relative;
     z-index: 2;
+    border-bottom: 1px solid #5B1F0F;
+    width: 200%;
+    padding-bottom: 2vw;
 }
 
 .img-papiro {
@@ -105,7 +108,12 @@ footer p {
 
     .img-papiro {
         width: 130px;
-        left: 23vw;
+        left: 57vw;
+    }
+
+    section.livros {
+       justify-content: center;
+       text-align: center;
     }
 
     footer p {
