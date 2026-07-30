@@ -43,15 +43,22 @@ section.livros {
     align-items: center;
     justify-content: flex-start;
     gap: 2px;
-
+    position: relative;
 }
 
 .papiro {
     max-width: 250px;
+    position: relative;
+    z-index: 2;
 }
 
 .img-papiro {
     width: 130px;
+    position: absolute;
+    left: 25vw;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
 }
 
 section.livros  h3{
