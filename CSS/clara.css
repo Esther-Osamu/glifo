@@ -36,6 +36,10 @@ header nav a:hover {
 
 /* PÁGINA DE RECOMENDAÇÕES */
 
+section.rec img {
+    width: 100%;
+}
+
 section.livros {
     padding: 2vw 10vw;
     display: flex;
@@ -53,22 +57,23 @@ section.livros {
 }
 
 .img-papiro {
-    width: 130px;
+    width: 80px;
     position: absolute;
-    left: 25vw;
+    left: 22vw;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
 }
 
 section.livros  h3{
-    font-family: 'Almendra';
-    font-size: 2.4rem;
+    font-family: 'Abhaya Libre';
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 section.livros p {
     font-family: 'Abhaya Libre';
-    font-size: 1.2rem;
+    font-size: 0.7rem;
 }
 
 
@@ -88,6 +93,19 @@ footer p {
       justify-content: space-between;
       padding: 1vw 3vw 1vw 3vw;
       text-align: center;
+    }
+
+    section.livros h3 {
+        font-size: 3rem;
+    }
+
+    section.livros p {
+        font-size: 1.3rem;
+    }
+
+    .img-papiro {
+        width: 130px;
+        left: 23vw;
     }
 
     footer p {
