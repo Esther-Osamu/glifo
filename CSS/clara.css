@@ -48,15 +48,15 @@ section.livros {
     justify-content: flex-start;
     gap: 2px;
     position: relative;
+    border-bottom: 1px solid #5B1F0F;
+    margin: 4vw 9vw 4vw 9vw;
 }
+
 
 .papiro {
     max-width: 250px;
     position: relative;
     z-index: 2;
-    border-bottom: 1px solid #5B1F0F;
-    width: 200%;
-    padding-bottom: 2vw;
 }
 
 .img-papiro {
@@ -99,21 +99,24 @@ footer p {
     }
 
     section.livros h3 {
-        font-size: 3rem;
+        font-size: 7rem;
     }
+    
 
     section.livros p {
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
 
     .img-papiro {
-        width: 130px;
-        left: 57vw;
+        width: 220px;
+        left: 44vw;
+        top: 60%;
     }
 
     section.livros {
        justify-content: center;
        text-align: center;
+       border-bottom: 2px solid #5B1F0F;
     }
 
     footer p {
