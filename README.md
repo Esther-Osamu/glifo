@@ -1,4 +1,4 @@
-ATA 1 
+**ATA 1** 
 Data: 02/06/2026      
 Assunto: Escolha do tema , nome do site, coordenador(a), secretário(a) e divisão de tarefas.
 
@@ -8,8 +8,9 @@ Foi decidido que a coordenadora será a aluna Sofia Santos e a secretária será
 
 Responsabilidades: No momento, como o tema ainda não foi devidamente aprofundado, todos os membros da equipe estarão responsáveis pela pesquisa e coleta de dados. E para o github deixamos a aluna Esther responsável pela criação e compartilhamento do repositório. 
 
+--
 
-ATA 2
+**ATA 2**
 Data: 09/06/2026      
 Assunto: Pesquisas sobre o tema e decisão da paleta de cores.
 
@@ -37,8 +38,9 @@ https://br.pinterest.com/pin/833658581074805511/
 Responsabilidades: Mariella responsável pela criação do figma compartilhado.
 Ausentes: Esther Alves, Rebecca Alves e Isabelle Padilha.
 
+--
 
-ATA 3
+**ATA 3**
 Data: 16/06/2026
 Assunto: Decisões das páginas, suas divisões e criação da logo.
 
@@ -66,8 +68,8 @@ https://st3.depositphotos.com/1006215/13631/v/450/depositphotos_136315864-stock-
 Observação: A logo será desenhada a mão.
 Foi decidido que o assunto a ser abordado será a escrita hieroglífica, anulando as ideias mencionadas na ata 2. Mantendo apenas a decisão da paleta de cores.
 
-
-ATA 4
+--
+**ATA 4**
 Assunto: Produção do  layout , do cabeçalho e rodapé do site.
 Data: 23/06/2026
 
@@ -77,8 +79,8 @@ Foi criado o layout do cabeçalho e rodapé.
 
 Responsabilidades: Para a próxima aula, cada membro do grupo terá que trazer o seu wireframe pronto no figma.
 
-
-ATA 5
+--
+**ATA 5**
 Assunto:  Wireframes e pesquisas.
 Data: 30/06/2026
 
@@ -86,11 +88,20 @@ Hoje foram finalizados os wireframes e iniciada as pesquisas.
 
 Responsabilidades: Trazer as pesquisas prontas para semana que vem.
 
+--
  
-ATA 6
+**ATA 6**
 Assunto: Começo do desenvolvimento do layout.
 Data: 07/07/2026
 
 Foi iniciado todo o desenvolvimento do layout das páginas do site.
 
 Responsabilidades: Trazer o layout pronto.
+
+--
+
+**ATA 7**
+Assunto: Continuidade da programação.
+Data: 11/08/2026
+
+Continuamos a programação das páginas do site.
