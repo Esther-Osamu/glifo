@@ -37,20 +37,54 @@ header nav a:hover {
     border-radius: 21px;
 } 
 
-/* == formas e poder == */
+html h2{
+    font-family: "Abhaya Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html h3{
+     font-family: "Abhaya Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html p{
+     font-family: "Abhaya Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* == formas e poder (para celular, junto com 'mensagens')== */
 
 section.curiosidades img{
 
-    padding: 3vw 0vw 3vw 4vw;
-    width: 45% ;
-    
+padding: 3vw 0 2vw 0;
 
 }
 
 section.curiosidades ul li{
-   display: flex;
-   align-items:flex-start;
-   
+   text-align: center;
+
+}
+
+section.curiosidades ul li h2{
+    font-size: 2rem;
+    padding: 3vw 0 2vw 0;
+}
+
+section.curiosidades ul li p{
+    padding: 0 7vw 0 7vw;
+    max-width: 400px ;
+    display: block;
+    margin: 0 auto;
+}
+
+section.curiosidades div.caixa1{
+    background-color: #732612;
+    padding: 0 3vw 3vw 3vw;
+    margin: 4vw;
+    border-radius: 30px;
 }
 
 
