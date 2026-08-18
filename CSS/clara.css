@@ -18,7 +18,7 @@ header img {
     width: 50%;
 }
 
-header nav {
+header nav ul{
     background-color: #F6E2BF;
     text-align: center;
     color:black;
@@ -103,11 +103,15 @@ footer p {
 }
 
 @media only screen and (min-width: 600px) {
-    header nav {
+    header nav ul{
       display: flex;
       justify-content: space-between;
       padding: 1vw 3vw 1vw 3vw;
       text-align: center;
+    }
+
+    header nav ul li {
+        display: flex;
     }
 
     section.livros h3 {
