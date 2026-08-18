@@ -15,7 +15,6 @@ h1, h2, h3, h4, h5, h6 {
 header {
     background-color: #934C1A;
     text-align: center;
-
 }
 
 header img {
@@ -26,12 +25,10 @@ header nav {
     background-color: #F6E2BF;
     text-align: center;
     color:black;
-
 }
 
-
 header nav a {
-    margin: 0 0 0 35vw;
+    display: block;
     padding: 2vw;
 }
 
@@ -39,6 +36,7 @@ header nav a:hover {
     border: 2px solid #934C1A;
     border-radius: 21px;
 } 
+
 
 /* section*/
 section.principal h3{
@@ -86,6 +84,13 @@ footer p {
     padding: 2vw 4vw 2vw 4vw;
 }
 @media screen and (min-width: 600px) {
-        
+            header nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 1vw 3vw 1vw 3vw;
+      text-align: center;
+    }
+
+
 }
 
