@@ -1,0 +1,91 @@
+/* === Html ==== */
+html{
+    background-color: #5B1F0F;
+    color: #C99565;
+    body, p, span {
+    font-family: 'Abhaya Libre', sans-serif;
+}
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Almendra', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #934C1A;
+    text-align: center;
+
+}
+
+header img {
+    width: 50%;
+}
+
+header nav {
+    background-color: #F6E2BF;
+    text-align: center;
+    color:black;
+
+}
+
+
+header nav a {
+    margin: 0 0 0 35vw;
+    padding: 2vw;
+}
+
+header nav a:hover {
+    border: 2px solid #934C1A;
+    border-radius: 21px;
+} 
+
+/* section*/
+section.principal h3{
+ padding: 2vw 5vw 2vw 5vw;
+ color:  #F6E2BF;
+ font-size: 22px;
+
+}
+section.principal p ul li{
+    padding: 2vw 5vw 0vw 5vw;
+    color: #F6E2BF;
+    
+}
+
+section.principal div{
+    background-color: #81574C;
+    border-radius: 21px;
+    padding: 5vw 0vw 5vw 0vw;
+    margin: 7vw 10vw 7vw 10vw;
+}
+
+section.principal a{
+    display:inline-block;
+    justify-content:center;
+    background-color: #F6E2BF;
+    color: #5B1F0F;
+    padding: 2vw 5vw 2vw 5vw;
+    border-radius: 21px;
+    margin: 7vw 15vw 7vw 0vw;
+}
+
+section.principal a.jogar{
+    margin: 7vw 10vw 7vw 25vw; 
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #934C1A;
+}
+
+footer p {
+    color: #F6E2BF;
+    font-size: 0.7rem;
+    padding: 2vw 4vw 2vw 4vw;
+}
+@media screen and (min-width: 600px) {
+        
+}
+
