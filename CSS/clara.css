@@ -79,7 +79,18 @@ section.livros p {
     font-size: 0.7rem;
 }
 
-section.venda-livros {}
+section.venda-livros {
+    text-align: center;
+    padding: 2vw 10vw;   
+}
+
+section.venda-livros ul li img {
+    width: 170px;
+}
+
+section.venda-livros ul {
+    color: #F6E2BF;
+}
 
 footer {
     background: #934C1A;
