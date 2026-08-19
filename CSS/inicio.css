@@ -35,23 +35,35 @@ header nav a:hover {
 } 
 
 
-section.inicio img {
+section.inicio div img {
     width: 59%;
+    position: relative;
 }
 
 section.inicio div{
     display: flex;
     gap: 25px;
     border-bottom: 2px solid #934C1A;
+    position: relative;
 }
 
 section.inicio h2 {
     padding: 4vw 8vw 3vw 0;
-    font-size: 2.1rem;
+    font-size: 2.8rem;
     text-align: center;
     color: #5B1F0F;
     text-shadow: 1px 1px 3px #934C1A;
+    font-family: 'almendra';
+    position: relative;
 }
+
+.inicio img.piramide {
+    width: 17%;
+    position: absolute;
+    left: 53vw;
+    top: 88vw;
+}
+
 
 
 
